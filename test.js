@@ -19,5 +19,9 @@ setTimeout(function() {
 }, 10000);
 
 setTimeout(function() {
+	mcsm.stop();
+}, 11000);
+
+setTimeout(function() {
 	mcsm.start();
 }, 15000);
