@@ -7,3 +7,17 @@ var mcsm = new MCServerMessager({
 	players: "0",
 	maxPlayers: "64"
 });
+
+mcsm.start();
+
+setTimeout(function() {
+	mcsm.start();
+}, 2000);
+
+setTimeout(function() {
+	mcsm.stop();
+}, 10000);
+
+setTimeout(function() {
+	mcsm.start();
+}, 15000);
