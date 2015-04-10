@@ -1,7 +1,7 @@
 var MCServerMessager = require('./lib/MCServerMessager');
 
 var mcsm = new MCServerMessager({
-	host: "192.168.0.9",
+	host: "0.0.0.0", // Listen on all interfaces
 	message: "§4§lThe server will be up in an hour. Grab a coffe :P",
 	motd: "WORK IN PROGRESS",
 	players: "0",
