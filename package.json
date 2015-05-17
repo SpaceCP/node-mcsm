@@ -18,6 +18,7 @@
   "homepage": "https://github.com/XereoNet/node-mcsm",
   "dependencies": {
     "iconv-lite": "^0.4.7",
-    "varint": "*"
+    "varint": "*",
+    "debug": "*"
   }
 }
