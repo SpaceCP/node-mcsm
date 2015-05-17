@@ -6,16 +6,16 @@ var mcsm = new MCServerMessager({
 	message: "The server will be up soon. Grab a coffee :P",
 	players: "0",
 	maxPlayers: "48",
-	motd: "Yaaay it almost works",
+	motd: "Houston, we've got a problem",
 
 	//reportedVersion: "1.5.1",	//MC client version
-	//protocolVersion: "60",		//MC protocol version
+	//protocolVersion: "60",	//MC protocol version
 
 	//reportedVersion: "1.6.2",
 	//protocolVersion: "74",
 
-	reportedVersion: "1.8.3",
-	protocolVersion: "47"
+	//reportedVersion: "1.8.3",
+	//protocolVersion: "47"
 	
 });
 
