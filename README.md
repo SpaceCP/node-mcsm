@@ -8,7 +8,7 @@ Make sure you install it from npm like so:
 
 To use Mcsm you need to create a new instance of the MCServerMessager class, like so:
 ```javascript
-var MCServerMessager = require('./lib/MCServerMessager');
+var MCServerMessager = require('mcsm');
 
 var mcsm = new MCServerMessager({
 	host: "0.0.0.0",
