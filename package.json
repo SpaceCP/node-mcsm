@@ -2,7 +2,7 @@
   "name": "node-mcsm",
   "version": "0.0.1",
   "description": "MC Server Messager - the tired server's secrtary",
-  "main": "test.js",
+  "main": "lib/MCServerMessager.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

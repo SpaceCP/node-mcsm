@@ -37,6 +37,18 @@ Here's a list of the supported options:
 - reportedVersion: The version to report to clients.
 - protocolVersion: The version of the Minecraft protocol to use.
 
+## Events
+
+An MCServerMessager instance is an event emitter and will use events to give status updates.
+
+The following events are fired:
+- error: Fires when an issue with the server connection arrises.
+- listen: Fires when the server starts listening to incoming connections.
+- close: fires when the server stops listening.
+- client_ping: Fires when a client ping has been handled.
+- client_connected: Fires when a client connected and has been sent the message.
+- client_error: Fires when a client packet couldn't be parsed.
+
 ## API
 
 An MCServerMessager instance has a few methods to facilitate integrating it into your project:
