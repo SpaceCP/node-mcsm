@@ -1,5 +1,5 @@
 # MCServerMessager (mcsm)
-Like the all known MC Sign On Door. Provide a message to users when your server is offline.
+Like the all known MC Sign On Door. Provide a message to users when your Minecraft server is offline.
 
 ## Usage
 Make sure you install it from npm like so:
@@ -23,7 +23,7 @@ var mcsm = new MCServerMessager({
 
 });
 
-// Satrt the listener
+// Start the listener
 mcsm.start();
 ```
 
@@ -55,7 +55,7 @@ An MCServerMessager instance has a few methods to facilitate integrating it into
 
 ### setOption(name, value)
 
-Changes the value of an option.
+Changes the value of an option. These can be changed while the instance is running.
 
 ### getOption(name)
 
@@ -68,3 +68,10 @@ Start listening for clients.
 ### stop()
 
 Stop listening for clients. The port will be free again.
+
+## Debug
+
+To debug the MCSM behaviour start your process with DEBUG=mcsm as environment variable, like so:
+
+> DEBUG=mcsm node yourApp.js
+

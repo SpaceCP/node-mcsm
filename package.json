@@ -1,6 +1,6 @@
 {
-  "name": "node-mcsm",
-  "version": "0.0.1",
+  "name": "mcsm",
+  "version": "1.0.0",
   "description": "MC Server Messager - the tired server's secrtary",
   "main": "lib/MCServerMessager.js",
   "scripts": {
@@ -11,6 +11,9 @@
     "url": "https://github.com/XereoNet/node-mcsm.git"
   },
   "author": "Alexei Liulin",
+  "contributors": [
+    "Jamy Timmermans <me@jamy.be> (http://jamy.be)"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/XereoNet/node-mcsm/issues"
@@ -20,5 +23,13 @@
     "iconv-lite": "^0.4.7",
     "varint": "*",
     "debug": "*"
-  }
+  },
+  "keywords": [
+    "Minecraft",
+    "Server",
+    "offline",
+    "MCSOD",
+    "MCSignOnDoor",
+    "MCSM"
+  ]
 }
