@@ -1,6 +1,6 @@
 {
   "name": "mcsm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MC Server Messager - the tired server's secrtary",
   "main": "lib/MCServerMessager.js",
   "scripts": {
